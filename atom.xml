@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-07T14:00:22.000Z</updated>
+  <updated>2017-05-28T15:15:09.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最希望拥有的能力</title>
+    <link href="http://yoursite.com/2017/05/28/2017-5-28/"/>
+    <id>http://yoursite.com/2017/05/28/2017-5-28/</id>
+    <published>2017-05-28T15:13:36.000Z</published>
+    <updated>2017-05-28T15:15:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>钝感力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;钝感力。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
