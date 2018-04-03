@@ -20,7 +20,7 @@ HTML5 不基于 SGML，所以不需要引用 DTD。
 标准模式的排版和JS运作模式都是以该浏览器支持的最高标准运行。在兼容模">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcly1fpfwidy5wvj30xc2cftfx.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/006tKfTcly1fpfzucznoij30m80f040c.jpg">
-<meta property="og:updated_time" content="2018-03-31T01:40:48.000Z">
+<meta property="og:updated_time" content="2018-04-03T10:43:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="前端复习">
 <meta name="twitter:description" content="HTMLDoctype指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令
@@ -516,6 +516,18 @@ div {
 <p>302 暂时转移</p>
 <p>303 希望对方用GET重定向</p>
 <p>307 希望对方用POST重定向</p>
+<h2 id="GET与POST区别"><a href="#GET与POST区别" class="headerlink" title="GET与POST区别"></a>GET与POST区别</h2><ol>
+<li><p>最直观的就是语义上的区别，get用于获取数据，post用于提交数据。</p>
+</li>
+<li><p>get参数有长度限制（受限于url长度，具体的数值取决于浏览器和服务器的限制），而post无限制</p>
+</li>
+<li>GET幂等，POST不幂等</li>
+<li>GET和POST的安全性<ul>
+<li>GET是通过URL方式请求，可以直接看到，明文传输。</li>
+<li>POST是通过请求header请求，可以开发者工具或者抓包可以看到，同样也是明文的。 3.GET请求会保存在浏览器历史纪录中，还可能会保存在Web的日志中。</li>
+</ul>
+</li>
+</ol>
 <h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>XSS： 通过客户端脚本语言（最常见如：JavaScript）<br>在一个论坛发帖中发布一段恶意的JavaScript代码就是脚本注入，如果这个代码内容有请求外部服务器，那么就叫做XSS！</p>
 <p>CSRF：又称XSRF，冒充用户发起请求（在用户不知情的情况下）,完成一些违背用户意愿的请求（如恶意发帖，删帖，改密码，发邮件等）。</p>
 <p><strong>公钥负责加密，私钥负责解密</strong>；同理，既然是签名，那肯定是不希望有人冒充我发消息，只有我才能发布这个签名，所以可得出<strong>私钥负责签名，公钥负责验证</strong>。</p>
